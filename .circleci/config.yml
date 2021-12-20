@@ -19,7 +19,7 @@ jobs:
       - snyk/scan:
           install-alpine-dependencies: false 
           severity-threshold: low 
-          token-variable: SNYK-TOKEN
+          token-variable: SNYK
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows

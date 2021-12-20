@@ -18,7 +18,7 @@ jobs:
       - checkout
       - snyk/scan:
           install-alpine-dependencies: false 
-          severity-threshold: low 
+          severity-threshold: critical 
           token-variable: SNYK
 
 # Invoke jobs via workflows

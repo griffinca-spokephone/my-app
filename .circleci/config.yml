@@ -17,7 +17,7 @@ jobs:
     steps:
       - checkout
       - snyk/scan:
-          fail-on-issues: false 
+          fail-on-issues: true 
           install-alpine-dependencies: false 
           severity-threshold: low 
           token-variable: SNYK
